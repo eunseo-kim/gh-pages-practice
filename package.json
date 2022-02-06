@@ -9,7 +9,8 @@
     "test": "start-server-and-test start http://localhost:8080 test:e2e",
     "lint": "eslint --ext js,jsx .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
