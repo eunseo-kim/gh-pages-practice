@@ -37,7 +37,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>투두리스트</h1>
+      <h1>Todo List</h1>
       <div>
         <Field
           newTodo={newTodo}
